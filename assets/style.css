@@ -17,7 +17,7 @@ img {
 
 p {
     display: inline-block;
-    background-color: aliceblue;
+    background-color:mediumspringgreen;
 }
 
 ul {
@@ -63,4 +63,8 @@ ul {
     background-color:mediumturquoise;
     position: relative;
     display: inline-block;
+}
+
+.pause{
+    animation-play-state: paused;
 }
