@@ -35,26 +35,27 @@ ul {
 
 @keyframes turnAround {
     0% {
-        transform: rotate(0deg) scale(0.75);
+        transform: rotate(0deg) /*scale(0.75)*/;
     }
 
     50% {
-        transform: rotate(180deg) scale(1);
+        transform: rotate(180deg) /*scale(1)*/;
     }
 
     100% {
-        transform: rotate(360deg) scale(0.75);
+        transform: rotate(360deg) /*scale(0.75)*/;
     }
 }
 
 .mario {
+    animation: turnAround 5s infinite linear;
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 29%;
+    left: 29%;
     transform: translate(-50%, -50%);
 }
 
