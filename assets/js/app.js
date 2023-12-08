@@ -10,8 +10,22 @@ const sac = {livre: 'BD Les Profs', trousse: 'stylo', skills: ["Mario Games", "M
 const disque = document.querySelector(".disque");
 const btnPause = document.getElementById("btnPause");
 
+//const paragraphe = document.querySelector(".div1 p");
+
+//paragraphe.style.backgroundColor = "blue";
+
 btnPause.addEventListener("click", ()=> {
     disque.classList.toggle("pause");
+
+    if(disque.classList.contains("pause"))
+    {
+        btnPause.textContent = "Play";
+    }
+
+    else
+    {
+        btnPause.textContent = "Pause";
+    }
 });
 
 console.log(apprenants[1]);

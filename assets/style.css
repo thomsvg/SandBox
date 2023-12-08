@@ -30,7 +30,6 @@ ul {
 }
 
 .rotation {
-    animation: turnAround 5s infinite linear;
 }
 
 @keyframes turnAround {
@@ -48,21 +47,20 @@ ul {
 }
 
 .zinzinFM {
-    animation: turnAround 5s infinite linear;
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 100%;
     position: absolute;
-    top: 29%;
-    left: 29%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .disque {
-    background-color:mediumturquoise;
     position: relative;
     display: inline-block;
+    animation: turnAround 5s infinite linear;
 }
 
 .pause{
